@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Trip Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <label for="SectionIDA">
+                <input type="radio" value="Section A" name="Section" id="SectionIDA">Section A
+            </label><br>
+            <label for="SectionIDB">
+                <input type="radio" value="Section B" name="Section" id="SectionIDB">Section B
+            </label><br>
+            <label for="SectionIDC">
+                <input type="radio" value="Section C" name="Section" id="SectionIDC">Section C
+            </label><br>
+
+            <input type="checkbox" id="Food" class="Shivalik" name="Canteen">
+            <label for="Food">Get food from Canteen</label><br>
+
+            <textarea name="Reason" id="Reason" cols="30" rows="10" placeholder="Reason for coming to trip "></textarea><br>
+            <select name="Car" id="Car">
+                <option value="No car">Select your car</option>
+                <option value="Audi">Audi</option>
+                <option value="Bentley">Bentley</option>
+                <option value="Porsch">Porsch</option>
+            </select>
+        </form>
+    </div>
+
+</body>
+
+</html>
